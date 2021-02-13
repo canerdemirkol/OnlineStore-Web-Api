@@ -22,6 +22,6 @@ namespace OnlineStore.Data.Entities
         public string Mail { get; set; }
 
         //user ların gorebilecegi category ler
-        public virtual ICollection<Category> AllowedCategories { get; set; } //i<in verilen category ler
+        public virtual ICollection<Category> AllowedCategories { get; set; } //için verilen category ler
     }
 }
